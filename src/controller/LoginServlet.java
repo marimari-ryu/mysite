@@ -46,7 +46,7 @@ public class LoginServlet extends HttpServlet {
 			DBManager dbm = new DBManager();
 		//	UserDTO user = dbm.getLoginUser(loginId, pass);
 
-
+				//aaa
 			if (user != null) {
 				// ユーザ情報を取得できたら、書き込み内容リストを取得
 				//ArrayList<ShoutDTO> list = dbm.getShoutList();
