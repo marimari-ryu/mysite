@@ -35,6 +35,8 @@ public class LoginServlet extends HttpServlet {
 			// ログインID かパスワードどちらか、もしくは双方未入力なら
 			message = "名前は必須入力です";
 
+			//急にエラー出るようになったな
+
 			// エラーメッセージをリクエストオブジェクトに保存
 			request.setAttribute("alert", message);
 
